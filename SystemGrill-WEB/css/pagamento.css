@@ -1,0 +1,37 @@
+section.pagamento{
+  width: 100%;
+}
+
+section.pagamento .titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+section.pagamento .titulo span{
+  font-size: 2rem;
+}
+
+section.pagamento .titulo h2{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+}
+
+.botoes-menu-pagamento{
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-menu-pagamento{
+  padding: 1rem 4rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}

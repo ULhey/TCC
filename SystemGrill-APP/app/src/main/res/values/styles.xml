@@ -1,0 +1,38 @@
+<resources>
+        <style name="edt_style">
+        <item name="android:background">@drawable/edt_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorsilver</item>
+        <item name="android:textColorHint">@color/colorsilver</item>
+    </style>
+
+    <style name="btn_style">
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/colorwhite</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="btn_style_number_select">
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/colorwhite</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

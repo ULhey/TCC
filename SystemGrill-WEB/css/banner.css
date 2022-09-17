@@ -1,0 +1,23 @@
+section.banner{
+  width: 100%;
+  height: auto;
+  padding: 4rem 0 2rem 0;
+}
+
+section.banner > .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-principal{
+  height: 40rem;
+  width: 40rem;
+}
+
+@media screen and (max-width: 555px) {
+  .banner-principal{
+    height: 30rem;
+    width: 30rem;
+  }
+}

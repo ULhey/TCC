@@ -1,0 +1,37 @@
+section.cardapio{
+  width: 100%;
+}
+
+section.cardapio .titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+section.cardapio .titulo span{
+  font-size: 2rem;
+}
+
+section.cardapio .titulo h2{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+}
+
+.botoes-menu-cardapio{
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-menu-cardapio{
+  padding: 1rem 4rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}

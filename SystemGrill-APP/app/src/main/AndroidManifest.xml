@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.systemgrill">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SystemGrill"
+        tools:targetApi="31">
+        <activity
+            android:name=".Visualizarcomanda"
+            android:exported="false" />
+        <activity
+            android:name=".Selecionarmesa"
+            android:exported="false" />
+        <activity
+            android:name=".Quantidadeproduto"
+            android:exported="false" />
+        <activity
+            android:name=".Mostrarproduto"
+            android:exported="false" />
+        <activity
+            android:name=".Mostrarcategoria"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Itemlistavisualizarpedido"
+            android:exported="false" />
+        <activity
+            android:name=".Itemlistaproduto"
+            android:exported="false" />
+        <activity
+            android:name=".Itemlistamesa"
+            android:exported="false" />
+        <activity
+            android:name=".Itemlistacomanda"
+            android:exported="false" />
+        <activity
+            android:name=".Itemlistacategoria"
+            android:exported="false" />
+        <activity
+            android:name=".Configuracao"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

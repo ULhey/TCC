@@ -1,0 +1,113 @@
+form#mesa{
+  width: 100%;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 2rem 0 3rem 0;
+}
+form#mesa .input-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+form#cardapio{
+  width: 100%;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 2rem 0 3rem 0;
+}
+form#cardapio .input-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+form#categoria{
+  width: 100%;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 2rem 0 3rem 0;
+}
+form#categoria .input-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+form#usuario{
+  width: 100%;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 2rem 0 3rem 0;
+}
+form#usuario .input-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+form#produto{
+  width: 100%;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 2rem 0 3rem 0;
+}
+form#produto .input-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+form#pagamento{
+  width: 100%;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 2rem 0 3rem 0;
+}
+form#pagamento .input-block{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.input-block input, .input-block select{
+  padding: 0.5rem;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0.3rem;
+}
+
+.input-block label{
+  margin-bottom: 0.5rem;
+}
+
+.input-block select option{
+  font-style: italic;
+}
+
+fieldset{
+  border: none;
+}
+
+legend{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.input-block button{
+  width: 140px;
+  padding: 1rem 0;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: 400ms;
+}
+
+.input-block button:hover{
+  transition: 400ms;
+  opacity: 0.7;
+}

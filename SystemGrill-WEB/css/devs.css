@@ -1,0 +1,82 @@
+section.desenvolvedores{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section.desenvolvedores h2{
+  text-align: center;
+  padding:  1rem 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+.info-devs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto-dev{
+  width: 140px;
+  height: 140px;
+  background-color: rgb(207, 207, 207);
+  clip-path: circle();
+  opacity: 0.4;
+  transition: all 400ms;
+}
+
+.foto-dev:hover{
+  transition: all 400ms;
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+   transform: scale(1.3);
+}
+
+.foto-dev img{
+  width: 100%;
+  height: 100%;
+}
+
+.encapsular{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.devs{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.scrum{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.scrum p, .devs p{
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.scrum span, .devs span{
+  font-size: 0.75rem;
+}
+
+.scrum{
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 555px){
+  .devs, .scrum{
+    flex-direction: column;
+  }
+}
